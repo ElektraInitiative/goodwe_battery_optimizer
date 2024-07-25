@@ -43,18 +43,16 @@ sudo ./set_battery_current 80  # charge battery up to 80%
 
 # Algorithmus
 
-00:00 - 10:00 no charging
-10:00 - 16:00 (Summer around 12:00) (x)
-10:00 - 14:00 (Winter around 13:00) (x)
+Until 10:00 higher grid export, by:
 
-from 10:00 reduced grid usage
+- 00:00 - 10:00 no charging
+- 10:00 - 16:00 (Summer around 12:00) (x)
+- 10:00 - 14:00 (Winter around 13:00) (x)
 
 
 ## Measurements
 
-Voltage: 460V .. 533.5V
-
-33 Ah
+Voltage: 460V .. 533.5V -> 33 Ah
 
 ## Recommendations
 
