@@ -21,10 +21,10 @@ default settings: baudate: 9600; Bits 8N1
 
 ```
 # m h  dom mon dow   command
-0 10 * * * /home/olimex/pv_anlage_c/set_battery_current 90
+0 10 * * * /home/olimex/goodwe_battery_optimizer/set_battery_current 90
 # first sunday of month to sometimes fully charge battery:
-1 10 * * 7 [ $(date +\%d) -le 07 ] && /home/olimex/pv_anlage_c/write_reg 45353 120 && logger "charge to 100%"
-0 16 * * * /home/olimex/pv_anlage_c/write_reg 45353 0 && logger "disable charging"
+1 10 * * 7 [ $(date +\%d) -le 07 ] && /home/olimex/goodwe_battery_optimizer/write_reg 45353 120 && logger "charge to 100%"
+0 16 * * * /home/olimex/goodwe_battery_optimizer/write_reg 45353 0 && logger "disable charging"
 ```
 
 # Examples
