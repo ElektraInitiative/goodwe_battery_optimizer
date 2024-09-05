@@ -20,9 +20,6 @@ Furthermore, they always charge fully, which is not good for the life time of th
 
 ![optimized](optimized.png)
 
-problem description, screenshots for goodwe optimizer, opensesame further work link
-	fix of charge 100%
-
 # Setup
 
 You need a GoodWe_GW20K-ET inverter and an [Olimex MOD-RS485](https://www.olimex.com/Products/Modules/Interface/MOD-RS485/open-source-hardware) connected via Modbus-RTU.
